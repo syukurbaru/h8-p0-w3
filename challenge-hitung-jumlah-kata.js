@@ -1,9 +1,17 @@
 function hitungJumlahKata(kalimat) {
   // you can only write your code here!
-  var kalimatNew = kalimat.split(" "); // Dipecah kedalam array
-  var kalimatPjng = kalimatNew.length; // Menghitung jumlah elelement dlm array
+  // var kalimatNew = kalimat.split(" "); // Dipecah kedalam array
+  // console.log(kalimatNew);
+  // var kalimatPjng = kalimatNew.length; // Menghitung jumlah elelement dlm array
 
-  return kalimatPjng;
+  // Menghitung jumlah kata maka sama saja menghitung jumlah spasi plus 1
+  var jmlSpasi = 0 + 1;
+  for (var i = 0; i < kalimat.length; i++) {
+    if (kalimat[i] === " ") {
+      jmlSpasi++;
+    }
+  }
+  return jmlSpasi;
 }
 
 // TEST CASES
