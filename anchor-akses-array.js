@@ -1,3 +1,5 @@
+// Membuat fungsi untuk balik string
+
 //input "hello world!"
 var str = "hello world";
 
@@ -12,3 +14,11 @@ function balikString(str) {
 //output
 console.log(balikString(str));
 //"!dlrow olleh";
+
+// ================= Menggunakan Built In function
+
+// var str = 'hello world'
+
+// var strBalik = str.split('').reverse().join('');
+
+// console.log(strBalik);
